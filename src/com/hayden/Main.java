@@ -17,10 +17,10 @@ public class Main {
         int selectedMenu = -1;
         int[][] menuList = {{0, 3, 5}, {1, 2, 3}, {2, 4, 6}, {1, 2, 5}, {0, 1, 3}};
 
+        Scanner scanner = new Scanner(System.in);
+
         //첫 화면
         while (condition) {
-            Scanner scanner = new Scanner(System.in);
-
             System.out.println(
                     "오늘은 치킨이닭!" +
                             "\n어디에 전화를 걸까?" +
@@ -65,9 +65,8 @@ public class Main {
             if (scanner.nextInt() == 2) {
                 condition = false;
             }
-
-            scanner.close();
         }
+        scanner.close();
     }
 
 
