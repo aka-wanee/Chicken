@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         boolean condition = true;
 
-        String[] brands = {"BHC", "DDORAE ORAE", "GOOBNE", "YES YES", "KFC", "HOSICK'S 2 CHICKENS"};
+        String[] brands = {"BHC", "DDORAE ORAE", "GOOBNE", "YES YES", "KFC", "HOSICK'S 2 CHICKENS", "HOSICK'S 3 CHICKENS"};
         String[] menus = {"양념", "후라이드", "반반무마니", "갈릭", "파닭", "뿌링클", "핫크리스피"};
         String selectedBrand = "";
 
